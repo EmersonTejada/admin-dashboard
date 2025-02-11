@@ -172,7 +172,7 @@ body {
 }
 
 .second-column {
-    max-width: 220px;
+  max-width: 220px;
   flex-grow: 3;
   display: flex;
   flex-direction: column;
@@ -193,6 +193,10 @@ body {
   background-color: white;
   padding: 28px;
   box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.263);
+}
+
+.card {
+  border-left: 8px solid #e74c3c;
 }
 
 .card p {
@@ -218,5 +222,22 @@ h3 {
 
 .announcement p {
   font-size: 0.6rem;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
   text-overflow: ellipsis;
+}
+
+.announcement h5 {
+  margin-top: 5px;
+}
+
+.announcement {
+  border-top: 1px solid #ccc;
+  /* border-bottom: 1px solid #ccc;; */
+}
+.announcements-card :first-child {
+  border: none;
 }
